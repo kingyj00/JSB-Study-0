@@ -8,6 +8,8 @@ import com.mysite.sbb.question.Question;
 import java.time.LocalDateTime;
 import jakarta.persistence.ManyToOne;
 import com.mysite.sbb.user.SiteUser;
+import java.util.Set;
+import jakarta.persistence.ManyToMany;
 
 @Getter
 @Setter
@@ -27,6 +29,9 @@ public class Answer {
 
     @ManyToOne
     private SiteUser author;
+
+    @ManyToMany
+    Set<SiteUser> voter;
 
     private LocalDateTime modifyDate;
 }

@@ -175,3 +175,6 @@ org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (
 2024-12-24 14:25:38.692064+09:00 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONTENT"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
 CONTENT [42001-232]
+2024-12-28 15:47:28.812188+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID ID"; expected "INSERT"; SQL statement:
+ID ID [42001-232]
